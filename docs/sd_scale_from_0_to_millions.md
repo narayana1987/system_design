@@ -7,4 +7,7 @@ a system that supports a single user and gradually scale it up to serve millions
 A journey of thousand miles begins with a single step, and building a complex system is no different.
 To start with something simple, everything is running on a single server.
 ##### Figure 1-1 shows Single Server Setup
+1. Users access websites through domain names, such as `api.mysite.com`. Usually, the DNS is a paid service 
+provided by third parties and not hosted by our servers.
 
+2. Internet Protocol (IP) addres is returned to the browser or mobile app. 
